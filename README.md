@@ -25,3 +25,5 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 
 Allows to add a script in the site directly from the Dashboard.
 Example : Google Analytics tracking code.
+
+[CMSUno](https://github.com/boiteasite/cmsuno)
