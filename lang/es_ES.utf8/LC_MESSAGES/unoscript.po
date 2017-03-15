@@ -2,43 +2,50 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 11:22+0100\n"
-"PO-Revision-Date: 2015-08-25 11:22+0100\n"
-"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
+"POT-Creation-Date: 2017-03-15 19:51+0100\n"
+"PO-Revision-Date: 2017-03-15 19:51+0100\n"
+"Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
-"Language: \n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Report-\tmsgstr-Bugs-To: \n"
 "Report-\t\tmsgstr-Bugs-To: \n"
-"X-Poedit-KeywordsList: _\n"
+"X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
-"X-Poedit-Country: SPAIN\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Poedit-Language: Spanish\n"
+"X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../unoscript.php:17
-#: ../../../unoscript.php:26
+#: ../../../unoscript.php:17 ../../../unoscript.php:26
 msgid "Uno Script"
 msgstr "Uno Script"
 
 #: ../../../unoscript.php:19
-msgid "This plugin allows you to add a script on the site without modifying the template."
-msgstr "Este plugin te permite agregar una secuencia de comandos en el sitio sin necesidad de modificar el template."
+msgid ""
+"This plugin allows you to add a script on the site without modifying the "
+"template."
+msgstr ""
+"Este plugin te permite agregar una secuencia de comandos en el sitio sin "
+"necesidad de modificar el template."
 
 #: ../../../unoscript.php:20
 msgid "You can use it to add the Google Analytics tracking code."
-msgstr "Se puede utilizar para añadir el código de seguimiento de Google Analytics."
+msgstr ""
+"Se puede utilizar para añadir el código de seguimiento de Google Analytics."
 
 #: ../../../unoscript.php:21
 msgid "You can use this form to insert any JavaScript code."
-msgstr "Usted puede usar este formulario para insertar cualquier código JavaScript."
+msgstr ""
+"Usted puede usar este formulario para insertar cualquier código JavaScript."
 
 #: ../../../unoscript.php:23
-msgid "The code will be installed at the bottom of the page, in the end of /body/."
-msgstr "Se instalará el código en la parte inferior de la página, en el final de /body/."
+msgid ""
+"The code will be installed at the bottom of the page, in the end of /body/."
+msgstr ""
+"Se instalará el código en la parte inferior de la página, en el final de /"
+"body/."
 
 #: ../../../unoscript.php:28
 msgid "Paste the code"
@@ -67,4 +74,3 @@ msgstr "Copia de seguridad realizada"
 #: ../../../unoscript.php:42
 msgid "Impossible backup"
 msgstr "Copia de seguridad Imposible"
-
