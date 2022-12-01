@@ -3,21 +3,20 @@
 // Plugin Uno Script
 //
 function f_save_unoscript(){
-	jQuery(document).ready(function(){
-		jQuery.post('uno/plugins/unoscript/unoscript.php',{
-			'action':'save','unox':Unox,
-			's':document.getElementById('scri').value
-			},function(r){f_alert(r);}
-		);
-	});
+	let x=new FormData();
+	x.set('action','save');
+	x.set('unox',Unox);
+	x.set('s',document.getElementById('scri').value);
+	fetch('uno/plugins/unoscript/unoscript.php',{method:'post',body:x})
+	.then(r=>r.text())
+	.then(r=>f_alert(r));
 }
 //
 function f_load_unoscript(){
-	jQuery(document).ready(function(){
-		jQuery.getJSON("uno/data/"+Ubusy+"/unoscript.json",function(data){
-			x = data.tex.replace(/\\/g,'');
-			document.getElementById('scri').value=x;
-		});
+	fetch("uno/data/"+Ubusy+"/unoscript.json?r="+Math.random())
+	.then(r=>r.json())
+	.then(function(data){
+		if(data.tex)document.getElementById('scri').value=data.tex.replace(/\\/g,'');
 	});
 }
 //
