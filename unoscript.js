@@ -6,6 +6,7 @@ function f_save_unoscript(){
 	let x=new FormData();
 	x.set('action','save');
 	x.set('unox',Unox);
+	x.set('ubusy',Ubusy);
 	x.set('s',document.getElementById('scri').value);
 	fetch('uno/plugins/unoscript/unoscript.php',{method:'post',body:x})
 	.then(r=>r.text())

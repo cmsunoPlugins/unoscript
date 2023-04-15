@@ -30,6 +30,7 @@ Example : Google Analytics tracking code.
 
 ### Versions ###
 
+* 1.1.3 - 15/04/2023 : Add post ubusy
 * 1.1.2 - 01/12/2022 : JQuery free
 * 1.1.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.1 - 14/10/2016 : Use PHP-Gettext in place of gettext
